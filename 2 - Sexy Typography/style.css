@@ -1,0 +1,33 @@
+/* ========================================
+        Cool Shadow
+   ====================================== */
+
+.shadow-typo {
+    font-family: 'Bubblegum Sans', cursive;
+    position: relative;
+    display: inline-block;
+    font-size: 4em;
+    color: #00b3b4;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px white, 4px 4px 0px rgba(0, 0, 0, 0.3), 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ========================================
+        Cool Shadow
+   ====================================== */
+
+.threedee-typo {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 5rem;
+    color: #f2395a;
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    -o-transform: skew(-5deg, -5deg) rotate(5deg);
+    -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+    -moz-transform: skew(-5deg, -5deg) rotate(5deg);
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -o-transform-origin: center center;
+    text-shadow: 1px 1px #d10e31, 2px 2px #d10e31, 3px 3px #d10e31, 4px 4px #d10e31, 5px 5px #d10e31, 6px 6px #d10e31, 7px 7px #d10e31, 8px 8px #890920, 9px 9px #890920, 10px 10px #800920, 11px 11px 15px rgba(0, 0, 0, 0.5)
+}
