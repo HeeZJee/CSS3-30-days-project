@@ -1,0 +1,65 @@
+/* ========================================
+
+sticky Sidebar
+
+   ====================================== */
+
+.sticky-sidebar-lesson {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sticky-sidebar-lesson .sandbox {
+  background-color: #e7eef1;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 12px 0 -6px #fa90a3;
+  width: 60%;
+  margin: 0 0 40px;
+  float: left;
+}
+
+.sticky-sidebar {
+  font-family: "Bubblegum Sans";
+  font-size: 2rem;
+  height: 100px;
+  text-align: center;
+  background-color: #e7eef1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 12px 0 -6px #fa90a3;
+  float: right;
+  right: 5%;
+  position: fixed;
+  width: 36%;
+}
+
+.sticky-sidebar-lesson::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+@media screen and (max-width: 720px) {
+  .sticky-sidebar-lesson::after {
+    display: block;
+  }
+
+  .sticky-sidebar {
+    float: none;
+    position: relative;
+    width: auto;
+    padding: 1px;
+    margin-bottom: 20px;
+    right: 0;
+  }
+
+  .sticky-sidebar-lesson .sandbox {
+    float: none;
+    width: auto;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 20px;
+  }
+}
