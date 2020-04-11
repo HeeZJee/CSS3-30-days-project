@@ -32,7 +32,7 @@ body {
 
 footer {
   height: 120px;
-
+  /* min-height: 60px; */
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
