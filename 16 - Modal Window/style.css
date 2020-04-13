@@ -56,4 +56,5 @@ input[type="checkbox"]:checked ~ .modal {
   background-color: aquamarine;
   padding: 10px;
   border-radius: 10px;
+  cursor: pointer;
 }
