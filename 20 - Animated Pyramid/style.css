@@ -1,0 +1,48 @@
+/* ========================================
+
+  Animated Pyramid
+
+  ====================================== */
+
+.triangle {
+  position: relative;
+  height: 320px;
+  width: 100%;
+  clip-path: polygon(50% 0, 35% 100%, 65% 100%);
+}
+
+.triangle div {
+  position: absolute;
+  top: 0;
+  color: red;
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 100px;
+  margin: 0 auto;
+  transition: all ease 0.5s;
+}
+
+.top {
+  z-index: 2;
+}
+
+.mid {
+  z-index: 1;
+}
+
+.triangle:hover div {
+  color: white;
+}
+
+.triangle:hover .mid {
+  top: 110px;
+  background-color: green;
+}
+
+.triangle:hover .bottom {
+  top: 220px;
+  background-color: blue;
+}
