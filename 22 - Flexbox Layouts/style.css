@@ -1,7 +1,7 @@
 /* ========================================
 
    Flexbox Layouts
-   
+
    ====================================== */
 
 .layout1 main {
@@ -54,6 +54,31 @@
 
 .layout3 article {
   flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .layout1 header,
+  .layout1 main,
+  .layout1 footer,
+  .layout1 aside,
+  .layout1 article,
+  .layout2 .logo,
+  .layout2 nav,
+  .layout2 header,
+  .layout2 main,
+  .layout2 aside,
+  .layout2 footer,
+  .layout2 article,
+  .layout3 .logo,
+  .layout3 nav,
+  .layout3 .articles,
+  .layout3 header,
+  .layout3 footer,
+  .layout3 article {
+    display: block;
+    width: 100%;
+    float: none;
+  }
 }
 
 .layout1 header,
