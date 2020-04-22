@@ -1,0 +1,78 @@
+/* ========================================
+
+   Flexbox Layouts
+   
+   ====================================== */
+
+.layout1 main {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout1 article {
+  flex: 1 80%;
+}
+
+.layout2 header {
+  display: flex;
+  flex-direction: row;
+}
+.layout2 header nav {
+  flex: 1;
+}
+.layout2 header nav li {
+  display: inline;
+  margin: 10px;
+}
+
+.layout2 main {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout2 main article {
+  flex: 1 60%;
+}
+
+.layout2 main aside {
+  flex: 1 25%;
+}
+
+.layout3 header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.layout3 header nav {
+  flex: 1;
+}
+
+.layout3 .articles {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout3 article {
+  flex: 1;
+}
+
+.layout1 header,
+.layout1 footer,
+.layout1 aside,
+.layout1 article,
+.layout2 .logo,
+.layout2 nav,
+.layout2 aside,
+.layout2 footer,
+.layout2 article,
+.layout3 .logo,
+.layout3 nav,
+.layout3 footer,
+.layout3 article {
+  background-color: wheat;
+  margin: 0 10px 10px 0;
+  padding: 10px;
+  color: #000;
+  line-height: 20px;
+  box-sizing: border-box;
+}
