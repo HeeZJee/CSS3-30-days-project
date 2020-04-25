@@ -1,0 +1,72 @@
+/* ========================================
+
+    Dropdown Menu
+
+   ====================================== */
+
+.dropdown {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+
+.dropdown__hover{
+  display: inline-block;
+  padding:10px;
+  background-color: rgb(30, 144, 255);
+  color:#fff;
+  border: 0;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  transform: rotate(0deg);
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.dropdown__hover:hover{
+  background-color:  rgb(26, 95, 165);
+}
+
+
+
+.dropdown__menu{
+    position: absolute;
+    min-width: 200px;
+    background-color: dodgerblue ;
+    top: 100%;
+    left: 0;
+    color: dodgerblue;
+    border-radius: 10px;
+    color: #323b40;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+}
+
+.dropdown .dropdown__menu{
+opacity: 0;
+transform: translateY(20px);
+transition: all ease 0.6s;
+}
+
+.dropdown:hover .dropdown__menu{
+  opacity: 1; 
+  transform: translateY(0);
+}
+
+.dropdown__menu > a{
+display: block;
+padding: 10px;
+font-size: 1rem;
+text-decoration: none;
+color: #fff;
+border-radius: 10px;
+transition: all ease 0.3s;
+  
+
+}
+
+.dropdown__menu > a:hover{
+  background-color: rgba(0,0,0,0.3);
+}
+
