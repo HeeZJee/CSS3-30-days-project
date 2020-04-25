@@ -1,0 +1,55 @@
+    /* ========================================
+
+    Tea Cup
+
+   ====================================== */
+
+    .coffee {
+        position: relative;
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    .handle {
+        position: absolute;
+        z-index: 1;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 127px;
+        height: 50px;
+        border-radius: 50px;
+        background-image: linear-gradient(180deg,
+                rgba(200, 200, 200) 5%,
+                rgb(255, 255, 255) 50%,
+                rgb(200, 200, 200) 95%);
+        box-shadow: 5px 0 1px 0 rgb(200, 200, 200, 0.8);
+
+    }
+
+    .coffee-cup {
+        position: relative;
+        z-index: 2;
+        width: 462px;
+        height: 462px;
+        border-radius: 50%;
+        background-image: radial-gradient(50% 50%,
+                rgb(223, 111, 0) 65%,
+                rgb(70, 52, 0) 75%,
+                rgba(129, 129, 129) 75%,
+                rgb(255, 255, 255) 95%,
+                rgb(161, 161, 161) 100%);
+        box-shadow: 10px 35px 30px 7px rgba(49, 49, 49, 0.1)
+    }
+
+    .brew {
+        position: absolute;
+        z-index: 3;
+        left: 70px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 316px;
+        height: 316px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 0px 0px rgba(214, 150, 0, 0.55);
+    }
